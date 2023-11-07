@@ -1,0 +1,173 @@
+@media(max-width: 1200px)
+{
+    .container
+    {
+        max-width: 1024px;
+    }
+
+    .contact
+    {
+        font-size: 16px;
+    }
+
+    footer .text-sm
+    {
+        width: 280px;
+    }
+
+    header .contact
+    {
+        width: auto;
+        display: flex;
+        align-items: center;
+    }
+
+
+
+    section.main .row .col h2
+    {
+        font-size: 26px;
+    }
+
+
+    .mobile
+    {
+        display: flex;
+    }
+
+    section.main .container
+    {
+        flex-direction: column;
+    }
+
+    section.main
+    {
+        background: none;
+        height: auto;
+    }
+
+    .logo
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .container
+    {
+        height: auto;
+        padding-top: 20px;
+        flex-direction: column;
+    }
+
+
+
+    .select-wrapper
+    {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+        label
+        {
+            font-size: 22px;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+
+        select
+        {
+            font-family: "Roboto Slab";
+            font-size: 18px;
+            font-weight: 600;
+            padding: 10px 20px;
+            border-radius: 10px;
+            border: 2px solid #233563;
+            background: #ffc58e;
+        }
+    }
+
+    .mobile
+    {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .col:not(.active)
+    {
+        display: none;
+    }
+
+    section.main .row .col
+    {
+        width: 100%;
+    }
+
+    header .container
+    {
+        padding-top: 0;
+    }
+
+    section.main.bg-1
+    {
+        background-image: url("/assets/images/bg-1.jpg");
+    }
+
+    section.main.bg-2
+    {
+        background-color: #233563;
+    }
+
+    .bg-2 .select-wrapper label
+    {
+        color: white;
+    }
+
+    header span
+    {
+        font-size: 14px;
+    }
+
+    section.main .row .col .wrapper .item
+    {
+        font-size: 14px;
+    }
+
+
+}
+
+@media(max-width: 1024px)
+{
+    .container
+    {
+        max-width: 992px;
+    }
+}
+
+@media(max-width: 992px)
+{
+    .container
+    {
+        max-width: 768px;
+    }
+}
+
+@media(max-width: 768px)
+{
+    .container
+    {
+        max-width: 576px;
+    }
+}
+
+@media(max-width: 576px)
+{
+    .container
+    {
+        max-width: 100%;
+    }
+}
